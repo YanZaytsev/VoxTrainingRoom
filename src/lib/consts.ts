@@ -1,4 +1,4 @@
-export const monthNames = [
+export const monthNames: string[] = [
   'January',
   'February',
   'March',
@@ -13,4 +13,6 @@ export const monthNames = [
   'December'
 ];
 
-export const categories = ['Management', 'Finance', 'Design'];
+export const timeRe = /^([01]?[0-9]|2[0-3]):[0-5][0-9]$/;
+
+export const nineAMTopPosition = 628;

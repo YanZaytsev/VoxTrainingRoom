@@ -4,8 +4,8 @@ module.exports = {
     'postcss-nested': {},
     'postcss-focus': {},
     'css-mqpacker': {
-      sort: true,
+      sort: true
     },
-    autoprefixer: {},
-  },
+    autoprefixer: {}
+  }
 };

@@ -1,31 +1,51 @@
 {
-  "name": "VoxTrainingRoom",
-  "version": "1.0.0",
-  "main": "index.js",
-  "dependencies": {
-    "autoprefixer": "^8.0.0",
-    "babel-preset-env": "^1.7.0",
-    "cssnext": "^1.8.4",
-    "parcel-bundler": "^1.12.3",
-    "postcss": "^4.1.16",
-    "postcss-discard-comments": "^4.0.0",
-    "postcss-focus": "^4.0.0",
-    "postcss-mixins": "^6.2.1",
-    "postcss-modules": "^1.1.0",
-    "postcss-nested": "^3.0.0"
-  },
+  "name": "voxtrainingroomvue",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "parcel src/pug/index.pug",
-    "build": "parcel build src/pug/index.pug"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "postcss": "^7.0.17",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.1.0",
+    "vue-svg-loader": "^0.12.0",
+    "vue-the-mask": "^0.11.1",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.2"
   },
   "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-typescript": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
     "css-mqpacker": "^7.0.0",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^5.0.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.13.0",
-    "pug": "^2.0.4"
-  }
+    "postcss-focus": "^3.0.0",
+    "postcss-load-config": "^2.1.0",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^3.0.0",
+    "typescript": "^3.4.3",
+    "vue-cli-plugin-pug": "^1.0.7",
+    "vue-template-compiler": "^2.6.10",
+    "svgo": "^1.2.2",
+    "svgo-loader": "^2.2.0",
+    "vue-cli-plugin-svg-sprite": "^0.3.1"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-mixins": {},
+      "postcss-nested": {},
+      "postcss-focus": {},
+      "css-mqpacker": {
+        "sort": true
+      },
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }

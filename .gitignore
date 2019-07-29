@@ -1,7 +1,10 @@
+.DS_Store
 node_modules
+/dist
 
-.cache
-dist
+# local env files
+.env.local
+.env.*.local
 
 # Log files
 npm-debug.log*
@@ -15,5 +18,5 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
-*.sw*
-
+*.sw?
+.cache/
